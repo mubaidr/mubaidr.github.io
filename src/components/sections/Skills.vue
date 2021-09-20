@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <div class="has-text-centered">
+    <!-- <div class="has-text-centered">
       <a href="https://profile.codersrank.io/user/mubaidr" target="_blank">
         <img
           src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?branding=false&widget=summary&username=mubaidr&badges=3&show-avatar=false&show-header=false"
@@ -10,7 +10,7 @@
 
     <br />
     <br />
-    <br />
+    <br /> -->
 
     <div class="columns">
       <div class="column is-2">
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <br />
+    <!-- <br />
     <br />
     <br />
 
@@ -66,7 +66,7 @@
           src="https://cr-skills-chart-widget.azurewebsites.net/api/api?branding=false&username=mubaidr&height=32"
         />
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
