@@ -18,10 +18,9 @@
             :href="profile.url"
             target="_blank"
             rel="noreferrer"
+            class="button is-light is-outlined"
           >
-            <button class="button is-light is-outlined">
-              {{ profile.icon }} {{ profile.title }}
-            </button>
+            {{ profile.icon }} {{ profile.title }}
           </a>
         </div>
       </div>
@@ -45,5 +44,6 @@ export default {
 <style scoped>
 .button {
   margin-right: 0.5em;
+  margin-bottom: 0.5em;
 }
 </style>
