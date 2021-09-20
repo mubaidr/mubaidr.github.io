@@ -1,0 +1,48 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --fix",
+    "deploy": "npm run build && npm run publish",
+    "dev": "vue-cli-service serve --open",
+    "publish": "sh ./publish.sh"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "core-js": "^3.18.0",
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/connect": "^3.4.35",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/core-js": "^2.5.5",
+    "@types/eslint": "^7.28.0",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/prettier": "^2.3.2",
+    "@types/sass": "^1.16.1",
+    "@types/serve-static": "^1.13.10",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "compression": "^1.7.4",
+    "connect": "^3.7.0",
+    "cookie-parser": "^1.4.5",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.41.1",
+    "sass-loader": "10.2.0",
+    "serve-static": "^1.14.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

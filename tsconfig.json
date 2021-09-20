@@ -1,0 +1,30 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "/@/*": ["./src/*"]
+    },
+    "lib": ["ESNext", "dom", "dom.iterable"],
+    "module": "CommonJS",
+    "target": "esnext",
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "isolatedModules": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"]
+  },
+
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "src/**/*.tsx",
+    "types/**/*.d.ts",
+    "../../types/**/*.d.ts"
+  ]
+}
