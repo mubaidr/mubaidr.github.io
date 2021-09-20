@@ -11,6 +11,11 @@ const profile = {
     location: 'Rawalpindi, Pakistan',
     profiles: [
       {
+        title: 'Sponsor Me',
+        url: 'https://github.com/sponsors/mubaidr?o=esb',
+        icon: '💰',
+      },
+      {
         title: 'Github',
         url: 'https://github.com/mubaidr',
         icon: '🧟',
