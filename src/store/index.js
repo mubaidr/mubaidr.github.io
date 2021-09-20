@@ -21,15 +21,20 @@ const profile = {
         icon: '🤵',
       },
       {
+        title: 'Freelancer',
+        url: 'https://www.freelancer.com/u/razamubaid',
+        icon: '👷',
+      },
+      // {
+      //   title: 'CodersRank',
+      //   url: 'https://profile.codersrank.io/user/mubaidr',
+      //   icon: '🏅',
+      // },
+      {
         title: 'Twitter',
         url: 'https://www.twitter.com/mubaidr',
         icon: '👥',
       },
-      /* {
-        title: 'Freelancer',
-        url: 'https://www.freelancer.com/u/razamubaid',
-        icon: 'work'
-      } */
     ],
   },
   sections: {
