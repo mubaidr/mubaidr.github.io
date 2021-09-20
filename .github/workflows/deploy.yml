@@ -24,14 +24,14 @@ jobs:
           node-version: '14'
 
       # then we need to install our static site generator
-      - run: npm install -g npm yarn
+      # - run: npm install -g npm yarn
       # doing clean install
       # - run: npm ci
-      - run: yarn install --frozen-lockfile
+      - run: npm ci
 
       # Building the site (static web pages)
       - name: Build
-        run: yarn build
+        run: npm run build
 
       # Copy all files from the build folder to the master branch
       - name: Deploy
@@ -40,3 +40,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: master # deploying branch
+          cname: mubaidr.js.org # add CNAME for custom domain
