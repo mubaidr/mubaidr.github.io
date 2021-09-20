@@ -24,14 +24,14 @@ jobs:
           node-version: '14'
 
       # then we need to install our static site generator
-      # - run: npm install -g npm yarn
+      - run: npm install -g yarn
       # doing clean install
       # - run: npm ci
-      - run: npm ci
+      - run: yarn install --frozen-lockfile
 
       # Building the site (static web pages)
       - name: Build
-        run: npm run build
+        run: yarn build
 
       # Copy all files from the build folder to the master branch
       - name: Deploy
