@@ -1,5 +1,5 @@
 <template>
-  <div class="hero is-large is-link">
+  <div class="hero is-large is-link" style="height: 100vh;">
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-1">
