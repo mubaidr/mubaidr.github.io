@@ -34,7 +34,7 @@ const profile = {
       //  title: 'CodersRank',
       //  url: 'https://profile.codersrank.io/user/mubaidr',
       //  icon: '🏅',
-      },
+      // },
       {
         title: 'Twitter',
         url: 'https://www.twitter.com/mubaidr',
