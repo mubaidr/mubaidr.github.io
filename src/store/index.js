@@ -30,11 +30,11 @@ const profile = {
         url: 'https://www.freelancer.com/u/razamubaid',
         icon: '👷',
       },
-      // {
-      //   title: 'CodersRank',
-      //   url: 'https://profile.codersrank.io/user/mubaidr',
-      //   icon: '🏅',
-      // },
+      {
+        title: 'CodersRank',
+        url: 'https://profile.codersrank.io/user/mubaidr',
+        icon: '🏅',
+      },
       {
         title: 'Twitter',
         url: 'https://www.twitter.com/mubaidr',
@@ -46,7 +46,7 @@ const profile = {
     about: {
       title: 'About',
       summary:
-        "Web developer with more than 6 years of well-rounded experience with a degree in the Computer & Information Sciences, extensive knowledge of modern Web techniques and love for coffee. I'm also passionate about open source.",
+        "Web developer with more than 6 years of well-rounded experience with a degree in the Computer & Information Sciences, extensive knowledge of modern Web techniques and love for coffee. I'm also passionate about open source. Specializing in API, Dashboard, Portfolio, and Web Application development, I am renowned for crafting scalable, efficient, and user-centric solutions that drive business growth.",
       objective:
         'Looking for an opportunity to work and upgrade, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community.',
     },
