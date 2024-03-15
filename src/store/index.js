@@ -30,10 +30,10 @@ const profile = {
         url: 'https://www.freelancer.com/u/razamubaid',
         icon: '👷',
       },
-      {
-        title: 'CodersRank',
-        url: 'https://profile.codersrank.io/user/mubaidr',
-        icon: '🏅',
+      // {
+      //  title: 'CodersRank',
+      //  url: 'https://profile.codersrank.io/user/mubaidr',
+      //  icon: '🏅',
       },
       {
         title: 'Twitter',
