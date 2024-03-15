@@ -66,6 +66,9 @@ const profile = {
               title: 'JavaScript',
             },
             {
+              title: 'Nuxt',
+            },
+            {
               title: 'VueJS',
             },
             {
@@ -75,7 +78,13 @@ const profile = {
               title: 'NestJs',
             },
             {
-              title: 'ASP.NET Web Forms',
+              title: 'ExpressJs',
+            },            
+            {
+              title: 'AdonisJs',
+            },
+            {
+              title: 'ASP.NET',
             },
             {
               title: 'C#',
@@ -94,6 +103,12 @@ const profile = {
             {
               title: 'MongoDB',
             },
+            {
+              title: 'Firebase',
+            },
+            {
+              title: 'Supabase',
+            },
           ],
         },
         {
@@ -107,6 +122,18 @@ const profile = {
             },
             {
               title: 'Pug',
+            },            
+            {
+              title: 'Vitest',
+            },
+            {
+              title: 'Puppeteer',
+            },            
+            {
+              title: 'Automation and Webscraping',
+            },
+            {
+              title: 'Tailwind css',
             },
             {
               title: 'Bulma',
@@ -134,6 +161,9 @@ const profile = {
             },
             {
               title: 'Chrome Extensions',
+            },
+            {
+              title: 'Firefox Extensions',
             },
           ],
         },
